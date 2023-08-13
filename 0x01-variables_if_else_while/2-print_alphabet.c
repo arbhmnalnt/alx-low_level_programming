@@ -9,14 +9,11 @@
 int main(void) 
 {
 	int i;	
-	for (i = 0; i < 26; i++) {
-        putchar('a' + i);
-    }
-    
-    // Print a new line character
-    putchar('\n');
-
-
+	for (i = 0; i < 26; i++)
+	{
+		putchar('a' + i);
+	}
+	putchar('\n');
     return 0;
 }
 
