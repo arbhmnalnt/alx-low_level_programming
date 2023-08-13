@@ -9,15 +9,12 @@
 int main(void) 
 {
 	int i;	
-	for (i = 0; i < 13; i++)
-	{
-		putchar('a' + i);
-	}
-
-	for (i = 13; i < 26; i++) 
-	{
-		putchar('a' + i);
-	}
+	for (i = 0; i < 26; i++) {
+        putchar('a' + i);
+    }
+    
+    // Print a new line character
+    putchar('\n');
 
 
     return 0;
