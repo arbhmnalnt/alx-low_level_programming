@@ -19,8 +19,8 @@ int main(void)
 	    }
 		else
 		{
-		    putchar('a' + i);
-	    }
+			putchar('a' + i);
+		}
 	}
 
 	putchar('\n');
