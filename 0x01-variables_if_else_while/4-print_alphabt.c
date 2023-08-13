@@ -13,16 +13,14 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-	    if (i==4 || i==16)
-        {
-                continue;
-	    }
-	    else
+		if (i == 4 || i == 16)
 	    {
-                putchar('a' + i);
+		    continue;
 	    }
-
-
+		else
+	    {
+		    putchar('a' + i);
+	    }
 	}
 
 	putchar('\n');
