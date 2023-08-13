@@ -7,18 +7,23 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) {
-    int i;
+int main(void)
+{
+	int i;
 
-    for (i = 0; i < 26; i++) {
-        if (i == 4 || i == 16) {
-            continue;
-        } else {
-            putchar('a' + i);
-        }
-    }
+	for (i = 0; i < 26; i++)
+	{
+		if (i == 4 || i == 16)
+	    {
+		    continue;
+	    }
+		else
+	    {
+		    putchar('a' + i);
+	    }
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
