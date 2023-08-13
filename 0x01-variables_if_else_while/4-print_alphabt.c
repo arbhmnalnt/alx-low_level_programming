@@ -18,7 +18,7 @@ int main(void)
 		    continue;
 	    }
 		else
-	    {
+		{
 		    putchar('a' + i);
 	    }
 	}
