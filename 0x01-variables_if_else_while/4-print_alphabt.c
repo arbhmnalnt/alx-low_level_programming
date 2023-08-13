@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (i == 4 || i == 16)
 		{
-		    continue;
+			continue;
 		}
 		else
 		{
