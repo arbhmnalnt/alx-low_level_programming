@@ -3,24 +3,26 @@
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase and uppercase followed by a new line
+ * Description: Prints the alphabet in lowercase and uppercase
+ *              followed by a new line
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i;
-    for (i = 0; i < 26; i++)
-    {
-        putchar('a' + i);
-    }
+	int i;
 
-    for (i = 0; i < 26; i++)
-    {
-        putchar('A' + i);
-    }
+	for (i = 0; i < 26; i++)
+	{
+		putchar('a' + i);
+	}
 
-    putchar('\n');
+	for (i = 0; i < 26; i++)
+	{
+		putchar('A' + i);
+	}
 
-    return (0);
+	putchar('\n');
+
+	return (0);
 }
